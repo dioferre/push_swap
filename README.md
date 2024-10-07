@@ -1,8 +1,8 @@
-## push_swap
-A sorting program
-(Completed 7 Oct 2024)<br/> <br/> 
+# **push_swap**
+**A sorting program**<br/> 
+*(completed 7 Oct 2024)*<br/> <br/> 
 
-
+### About the project
 push_swap is a project developed as part of the 42 coding school curriculum, designed to implement a sorting algorithm using only two stacks. The goal of the program is to sort a list of integers with the least number of operations, demonstrating an understanding of algorithm efficiency and data structures. The program accepts unsorted numbers as input and outputs the sequence of operations needed to sort them, employing algorithms to optimize performance. This project reinforces skills in problem-solving, coding efficiency, and algorithm design.<br/> <br/> 
 
 The operations the program has access to sort numbers are the following:
@@ -24,9 +24,9 @@ The operations the program has access to sort numbers are the following:
 <br />
 In this project, I took on the challenge of implementing a sorting algorithm that is not commonly utilized by students and isn't optimized for the specific constraints of the project. While quicksort is one of the most widely used sorting algorithms, I had to put my focus on adapting it to meet the unique rules of the project.
 
-My implementation not only achieved outstanding scores but also surpassed all benchmark tests, in some scenarios requiring fewer moves than algorithms specifically designed for this project. Throughout the process, I did my best to maintain a codebase that is readable, concise, and efficient.
+My implementation not only achieved outstanding scores but also surpassed all benchmark tests, in some scenarios requiring fewer moves than algorithms specifically designed for this project. Throughout the process, I did my best to maintain a codebase that is readable, concise, and efficient.<br/> <br/> 
 
--------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## How it works:
 
