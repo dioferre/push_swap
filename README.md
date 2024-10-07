@@ -10,25 +10,15 @@ push_swap is a project developed as part of the 42 coding school curriculum, des
 The operations the program has access to sort numbers are the following:
 
 PA: Pushes the top element from stack B onto stack A.
-
 PB: Pushes the top element from stack A onto stack B.
-
 SA: Swaps the two elements at the top of stack A.
-
 SB: Swaps the two elements at the top of stack B.
-
 SS: Executes the SA and SB operations simultaneously.
-
 RA: Rotates stack A by moving the top element to the bottom, shifting all other elements one position up.
-
 RB: Rotates stack B by moving the top element to the bottom, shifting all other elements one position up.
-
 RR: Executes the RA and RB operations simultaneously.
-
 RRA: Rotates stack A in reverse by moving the bottom element to the top, shifting all other elements one position down.
-
 RRB: Rotates stack B in reverse by moving the bottom element to the top, shifting all other elements one position down.
-
 RRR: Executes the RRA and RRB operations simultaneously.
 
 
