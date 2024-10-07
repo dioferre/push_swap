@@ -1,35 +1,34 @@
-# push_swap
+## push_swap
 A sorting program
-(Completed 7 Oct 2024)
+(Completed 7 Oct 2024)<br/> <br/> 
 
 
-push_swap is a project developed as part of the 42 coding school curriculum, designed to implement a sorting algorithm using only two stacks. The goal of the program is to sort a list of integers with the least number of operations, demonstrating an understanding of algorithm efficiency and data structures. The program accepts unsorted numbers as input and outputs the sequence of operations needed to sort them, employing algorithms to optimize performance. This project reinforces skills in problem-solving, coding efficiency, and algorithm design.
-
-
+push_swap is a project developed as part of the 42 coding school curriculum, designed to implement a sorting algorithm using only two stacks. The goal of the program is to sort a list of integers with the least number of operations, demonstrating an understanding of algorithm efficiency and data structures. The program accepts unsorted numbers as input and outputs the sequence of operations needed to sort them, employing algorithms to optimize performance. This project reinforces skills in problem-solving, coding efficiency, and algorithm design.<br/> <br/> 
 
 The operations the program has access to sort numbers are the following:
-
-PA: Pushes the top element from stack B onto stack A.
-PB: Pushes the top element from stack A onto stack B.
-SA: Swaps the two elements at the top of stack A.
-SB: Swaps the two elements at the top of stack B.
-SS: Executes the SA and SB operations simultaneously.
-RA: Rotates stack A by moving the top element to the bottom, shifting all other elements one position up.
-RB: Rotates stack B by moving the top element to the bottom, shifting all other elements one position up.
-RR: Executes the RA and RB operations simultaneously.
-RRA: Rotates stack A in reverse by moving the bottom element to the top, shifting all other elements one position down.
-RRB: Rotates stack B in reverse by moving the bottom element to the top, shifting all other elements one position down.
-RRR: Executes the RRA and RRB operations simultaneously.
-
-
-
+<br />
+| Operation | Effect |
+|:---:|:-------------|
+| pa | Pushes the top element from stack B onto stack A |
+| pb | Pushes the top element from stack A onto stack B |
+| sa | Swaps the two elements at the top of stack A |
+| sb | Swaps the two elements at the top of stack B |
+| ss | Executes the SA and SB operations simultaneously |
+| ra | Rotates stack A by moving the top element to the bottom, shifting all other elements one position up |
+| rb | Rotates stack B by moving the top element to the bottom, shifting all other elements one position up |
+| rr | Executes the RA and RB operations simultaneously |
+| rra | Rotates stack A in reverse by moving the bottom element to the top, shifting all other elements one position down |
+| rrb | Rotates stack B in reverse by moving the bottom element to the top, shifting all other elements one position down |
+| rrr | Executes the RRA and RRB operations simultaneously | <br />
+<br />
+<br />
 In this project, I took on the challenge of implementing a sorting algorithm that is not commonly utilized by students and isn't optimized for the specific constraints of the project. While quicksort is one of the most widely used sorting algorithms, I had to put my focus on adapting it to meet the unique rules of the project.
 
 My implementation not only achieved outstanding scores but also surpassed all benchmark tests, in some scenarios requiring fewer moves than algorithms specifically designed for this project. Throughout the process, I did my best to maintain a codebase that is readable, concise, and efficient.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-How it works:
+## How it works:
 
 As mentioned above my algorithm is an adaptation of quicksort specifically for this project, therefore it differs a bit from the one that is traditionally used, but it still uses the same principles.
 
